@@ -709,3 +709,62 @@ header nav ul li a:hover::after {
   border-top: 1px solid #eee;
   margin-top: 30px;
 }
+/* ===================== RESPONSIVE ===================== */
+
+/* Tablet */
+@media(max-width:768px){
+  header .container { flex-direction:column; align-items:center; }
+  header nav ul { flex-wrap:wrap; gap:15px; margin-top:10px; }
+  .home .container { flex-direction:column; text-align:center; gap:2rem; }
+  .hero-img img { width:150px; height:150px; }
+  .intro h1 { font-size:2.5rem; }
+  .intro h1 span:first-child { font-size:2rem; }
+  .intro h1 span:last-child { font-size:3rem; }
+  .about-content { flex-direction:column; align-items:center; text-align:center; }
+  .about-text, .about-img { width:90%; padding:25px; }
+  .about-img img { max-width:250px; }
+  .skills-box { grid-template-columns:repeat(2,1fr); }
+  .projects-box { grid-template-columns:1fr; }
+  .contact-container { flex-direction:column; align-items:center; text-align:center; }
+  .contact-info, .contact-form { width:90%; }
+  .contact-img img { width:250px; height:300px; }
+  .footer-container { flex-direction:column; align-items:center; text-align:center; gap:30px; }
+}
+
+/* Mobile */
+@media(max-width:480px){
+  header .logo { font-size:22px; }
+  header nav ul li a { font-size:14px; }
+  .intro h1 { font-size:2rem; }
+  .intro h1 span:first-child { font-size:1.5rem; }
+  .intro h1 span:last-child { font-size:2.2rem; }
+  .intro p { font-size:1rem; }
+  .hero-img img { width:120px; height:120px; }
+  .btn { padding:12px 28px; font-size:14px; }
+  .socials a { width:40px; height:40px; font-size:1.2rem; }
+  .about-text p { font-size:14px; }
+  .about-img img { max-width:200px; }
+  .skill-card { padding:20px 15px; }
+  .skill-card p { font-size:14px; }
+  .skills-box { grid-template-columns:1fr; }
+  .project-card img { height:220px; }
+  .project-card .overlay p { font-size:14px; }
+  .contact-info p, .contact-info strong { font-size:14px; }
+  .contact-form input, .contact-form textarea { font-size:13px; }
+  .contact-form button { padding:10px 22px; font-size:14px; }
+  .contact-img img { 
+    width:200px; height:250px;
+ }
+  .footer-about p {
+     font-size:14px;
+     }
+  .footer-links ul li a { 
+    font-size:14px;
+ }
+  .footer-contact p { 
+    font-size:14px;
+ }
+  .footer-socials a {
+     font-size:24px;
+     }
+}

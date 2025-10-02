@@ -46,17 +46,11 @@
       </div>
     </div>
 
-    <div class="hero-img">
-      <img src="/Images/4x6.jpg" alt="Chanthy Chet">
-    </div>
-  </div>
+<div class="hero-img">
+  <div class="gradient-bg"></div>
+  <img src="/Images/4x6.jpg" alt="Chanthy Chet" class="profile-img">
+</div>
 </section>
-
-
-
-
-
-
 
 <!-- ====== ABOUT ====== -->
 <section class="about" id="about">
@@ -73,11 +67,9 @@
         <strong>Languages & Tools:</strong> HTML, CSS, JavaScript, Git, GitHub
       </p>
     </div>
-
     <div class="about-img">
       <img src="/Images/chetchanthy.jpg" alt="Chanthy Chet">
     </div>
-
   </div>
 </section>
 
@@ -196,85 +188,78 @@
 
 
 
-<!-- contact -->
-<section class="contact" id="contact">
-  <h2 class="heading">Contact <span>Me</span></h2>
-  
-  <div class="contact-container container">
-    
-    <!-- Contact Info -->
-    <div class="contact-info">
-      <p><strong>Email:</strong> chanthy4313@gmail.com</p>
-      <p><strong>Phone:</strong> +855 86 663 272</p>
-      <p><strong>Location:</strong> Phnom Penh, Cambodia</p>
+<!-- ====== CONTACT ====== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="heading">Contact <span>Me</span></h2>
 
-      <!-- Social Icons -->
-      <div class="socials">
-        <a href="https://github.com/username" target="_blank" aria-label="GitHub">
-          <i class='bx bxl-github'></i>
-        </a>
-        <a href="https://linkedin.com/in/username" target="_blank" aria-label="LinkedIn">
-          <i class='bx bxl-linkedin'></i>
-        </a>
-        <a href="https://twitter.com/username" target="_blank" aria-label="Twitter">
-          <i class='bx bxl-twitter'></i>
-        </a>
+        <div class="contact-container">
+          <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:cthy4313@gmail.com">cthy4313@gmail.com</a></p>
+            <p><strong>Phone:</strong> +855 86 663 272</p>
+            <p><strong>Location:</strong> Phnom Penh, Cambodia</p>
+
+            <div class="socials" aria-label="Contact social links">
+              <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+              <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+              <a href="https://twitter.com/username" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <div class="contact-img">
+              <img src="/Images/thatmine.jpg" alt="Contact portrait — Chanthy Chet">
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+              <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+              <textarea name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+              <button type="submit" class="btn">Send Message</button>
+              <p class="form-status" id="formStatus" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
       </div>
-      <!-- Contact Image -->
-      <div class="contact-img">
-        <img src="/Images/thatmine.jpg" alt="Chanthy Chet">
+    </section>
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="footer-container container">
+      <div class="footer-about">
+        <h3>About Me</h3>
+        <p>I’m Chanthy Chet, a passionate frontend web developer specializing in creating modern and responsive websites. I love coding, design, and making the web beautiful and functional.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact Info</h3>
+        <p><strong>Email:</strong> cthy4313@gmail.com</p>
+        <p><strong>Phone:</strong> +855 86 663 272</p>
+        <p><strong>Location:</strong> Phnom Penh, Cambodia</p>
+      </div>
+
+      <div class="footer-socials">
+        <h3>Follow Me</h3>
+        <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+        <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://twitter.com/username" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
       </div>
     </div>
-    <!-- Contact Form -->
-    <div class="contact-form">
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
-        <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
-        <textarea name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
-        <button type="submit" class="btn">Send Message</button>
-        <p class="form-status" id="formStatus"></p>
-      </form>
+
+    <div class="footer-bottom">
+      <p>© 2025 Chanthy Chet. Made with ❤️.</p>
     </div>
-
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="footer-container container">
-    <div class="footer-about">
-      <h3>About Me</h3>
-      <p>I’m Chanthy Chet, a passionate frontend web developer specializing in creating modern and responsive websites. I love coding, design, and making the web beautiful and functional.</p>
-    </div>
-
-    <div class="footer-links">
-      <h3>Quick Links</h3>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-contact">
-      <h3>Contact Info</h3>
-      <p><strong>Email:</strong> chanthy4313@gmail.com</p>
-      <p><strong>Phone:</strong> +855 86 663 272</p>
-      <p><strong>Location:</strong> Phnom Penh, Cambodia</p>
-    </div>
-
-    <div class="footer-socials">
-      <h3>Follow Me</h3>
-      <a href="https://github.com/username" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
-      <a href="https://linkedin.com/in/username" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
-      <a href="https://twitter.com/username" target="_blank" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2025 Chanthy Chet. Made with ❤️.</p>
-  </div>
-</footer>
-
-
+  </footer>
 </body>
 </html>
